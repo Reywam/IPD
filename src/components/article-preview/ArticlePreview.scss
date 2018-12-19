@@ -1,0 +1,30 @@
+.article-preview {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+
+    &__content {
+        color: #8f8f8f;
+        font-size: 12px;
+        padding: 10px 20px;
+        background: #f3f3f3;
+        pointer-events: none;
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    &__footer {
+        background: #f3f3f3;
+        padding: 10px 20px;
+    }
+
+    .read-more-link {
+        font-size: 12px;
+        color: #000000;
+        text-decoration: underline;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

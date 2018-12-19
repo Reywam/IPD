@@ -1,0 +1,23 @@
+.create-article {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+
+    &__paragraph {
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
+    &__editor {
+        margin-bottom: 30px;
+    }
+    &__left {
+        width: 220px;
+        padding-right: 30px;
+    }
+
+    &__right {
+        width: 750px;
+    }
+
+}

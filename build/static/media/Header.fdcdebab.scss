@@ -1,0 +1,43 @@
+.header {
+    margin: 40px auto;
+    position: relative;
+    width: 1000px;
+    &__content {
+        display: flex;
+        background: #f3f3f3;
+        border: 1px solid #e7e7e7;
+    }
+    &__dropdown {
+        padding: 15px 30px !important;
+        min-width: 100px;
+        color: #b2b2b2;
+        text-align: right !important;
+        align-items: flex-end !important;
+        &__content{
+            top: 54px !important;
+            left: -1px !important;
+
+        }
+        &:hover {
+            background: #e7e7e7;
+            transition: background 0.3s ease;
+        }
+        span {
+            color: #b2b2b2;
+            text-transform: uppercase;
+        }
+        &_icon {
+            width: 17px;
+            height: 17px;
+            margin-left: 10px;
+            background: url("../dropdown/arrow.svg");
+            background-size: contain;
+            transform: rotate(90deg);
+            transition: transform 0.3s ease;
+        }
+        &--opened {
+            transform: rotate(270deg);
+            transition: transform 0.3s ease;
+        }
+    }
+}

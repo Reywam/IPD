@@ -1,0 +1,57 @@
+.comment {
+    margin-bottom: 30px;
+
+    &__header {
+        display: flex;
+        background: #f3f3f3;
+        border: 1px solid #e7e7e7;
+        padding: 20px;
+        border-radius: 3px 3px 0 0;
+        position: relative;
+        &_info {
+            margin-left: 15px;
+        }
+        &_image {
+            width: 60px;
+            height: 60px;
+            border-radius: 3px;
+        }
+        &_name {
+            color: #29c5e6;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &_date {
+            font-size: 14px;
+            color: #b2b2b2;
+        }
+    }
+
+    &__content {
+        padding: 10px 20px;
+        border: 1px solid #e7e7e7;
+        border-radius: 0 0 3px 3px;
+        background: #f3f3f3;
+    }
+
+    .delete-comment {
+        width: 20px;
+        height: 20px;
+        background: url("./img/cancel.svg");
+        background-size: contain;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+    }
+}
+
+blockquote {
+    overflow: hidden;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: 0;
+    font-style: italic;
+    border-left: 5px solid #ccc;
+}

@@ -1,0 +1,21 @@
+.header-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #b2b2b2;
+    padding: 15px 30px;
+    display: block;
+    transition: all 0.3s ease;
+    &:hover {
+        background: #e7e7e7;
+        transition: background 0.3s ease;
+    }
+
+    &--active {
+        color: #fff;
+        background: #29c5e6;
+        &:hover {
+            background: #29c5e6;
+        }
+    }
+}

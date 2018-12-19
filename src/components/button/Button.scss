@@ -1,0 +1,50 @@
+.button {
+    cursor: pointer;
+    background: #29c5e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    height: 60px;
+    border-radius: 2px;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: 1px solid #29c5e6;
+    &__text {
+        font-family: 'Oswald', sans-serif;
+
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    &--disable {
+        pointer-events: none;
+        background: #b2b2b2 !important;
+        outline: none !important;;
+        border: none !important;;
+    }
+    &--bordered {
+        outline: 1px solid #29c5e6;
+        color: #29c5e6;
+        background: none;
+        &:hover {
+            background: none !important;
+            box-shadow: 0 5px 10px #ccc;
+            transition: all 0.3s ease;
+        }
+    }
+
+    &:hover {
+        background: #29c5e6;
+        box-shadow: 0 5px 10px #ccc;
+        transition: all 0.3s ease;
+    }
+
+}
+
+.button-confirm-popup {
+    display: inline-block;
+    padding: 10px 30px;
+    height: 50px;
+    margin-left: 30px;
+}

@@ -1,0 +1,20 @@
+.add-comment {
+    padding: 20px;
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+
+    &__footer {
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .send-comment {
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
